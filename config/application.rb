@@ -15,5 +15,11 @@ module TaskApp
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+
+    # 日本語化
+    config.i18n.default_locale = :ja
+
+    # 標準時間(東京)
+    config.time_zone = 'Tokyo'
   end
 end
